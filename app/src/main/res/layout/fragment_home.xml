@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F3942"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/undraw_prioritise_re_r5xu" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/home_text"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlue"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_weight="1"
+            android:id="@+id/btn1"
+            android:text="Summarizer"
+            android:textAlignment="center"
+            android:textColor="@color/colorBackground"
+            android:textSize="20sp"
+            android:background="@drawable/round_corners"
+            android:backgroundTint="@color/blueXossText"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_weight="1"
+            android:id="@+id/btn2"
+            android:text="Generator"
+            android:textAlignment="center"
+            android:textColor="@color/colorBackground"
+            android:textSize="20sp"
+            android:background="@drawable/round_corners"
+            android:backgroundTint="@color/colorTextPrimary"/>
+    </LinearLayout>
+
+</RelativeLayout>

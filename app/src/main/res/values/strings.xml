@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FastTextProcess</string>
+    <string name="load_text">Charger</string>
+    <string name="appTitle">FastText</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_text">Une application pour aller vite dans vos tâches</string>
+    <string name="errorGeneral">Une erreur est survenue veuillez patienter</string>
+</resources>
