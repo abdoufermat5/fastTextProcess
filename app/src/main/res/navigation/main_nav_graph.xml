@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.fermat.fasttextprocess.HomeFragment"
+        android:name="com.fermat.textgenres.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/textGeneratorFragment"
-        android:name="com.fermat.fasttextprocess.TextGeneratorFragment"
+        android:name="com.fermat.textgenres.TextGeneratorFragment"
         android:label="fragment_text_generator"
         tools:layout="@layout/fragment_text_generator" >
         <action
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/textSummarizerFragment"
-        android:name="com.fermat.fasttextprocess.TextSummarizerFragment"
+        android:name="com.fermat.textgenres.TextSummarizerFragment"
         android:label="fragment_text_summarizer"
         tools:layout="@layout/fragment_text_summarizer" >
         <action

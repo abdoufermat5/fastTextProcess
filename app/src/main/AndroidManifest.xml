@@ -9,6 +9,7 @@
         android:icon="@drawable/undraw_message_sent_re"
         android:label="@string/app_name"
         android:roundIcon="@drawable/undraw_message_sent_re"
+        tools:replace="android:theme,android:icon,android:roundIcon"
         android:supportsRtl="true"
         android:theme="@style/Theme.FastTextProcess">
         <activity

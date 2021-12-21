@@ -43,14 +43,12 @@ class TextSummarizerFragment: Fragment() {
         return rootView
     }
 
-    private fun summary(text: String): String{
+    private fun summary(text: String){
         if (text.isNotEmpty()) {
-            val summary = Text2Summary.summarize(text, compressionRate = 0.7F)
+            val summary = Text2Summary.summarize(text, compressionRate = 0.3F)
             textResultData?.text = summary
-            return summary
         }
         Toast.makeText(this.requireContext(), "Incorrect", Toast.LENGTH_SHORT).show()
-        return "Please provide a text to summarize!"
     }
 
 //    private fun getTextFromImage(bitmap: Bitmap) {
