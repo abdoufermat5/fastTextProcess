@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.09"
         android:alpha="0.9"
-        android:background="@color/blueXossText"
+        android:background="@color/colorPrimary"
         android:fontFamily="@font/aclonica"
         android:lineSpacingExtra="8sp"
         android:paddingTop="15dp"
@@ -35,10 +35,10 @@
             android:id="@+id/textData"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:background="#A2A399"
+            android:layout_margin="10dp"
+            android:background="@color/homeColor"
             android:fontFamily="sans-serif-condensed"
-            android:hint="Copier le text ici"
+            android:hint="@string/hintTextData"
             android:inputType="textMultiLine"
             android:minLines="12"
             android:padding="10dp"
@@ -69,12 +69,12 @@
                 android:textSize="25sp" />
 
             <Button
-                android:id="@+id/btnCopyText"
+                android:id="@+id/btnCleanText"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
-                android:text="Resume"
+                android:text="@string/cleanText"
                 android:textSize="25sp"
                 android:visibility="gone" />
         </LinearLayout>
@@ -99,8 +99,8 @@
             android:id="@+id/textResultData"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:background="#A2A399"
+            android:layout_margin="10dp"
+            android:background="@color/homeColor"
             android:fontFamily="sans-serif-condensed"
             android:hint="@string/emptySummarizer"
             android:textAlignment="center"
