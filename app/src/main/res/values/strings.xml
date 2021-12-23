@@ -10,4 +10,5 @@
     <string name="hintTextData">Copier le text ici</string>
     <string name="cleanText">Éffacer</string>
     <string name="generatorTitle">Generator</string>
+    <string name="generate">generer la suite</string>
 </resources>
